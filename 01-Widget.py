@@ -7,6 +7,7 @@ print(f"✅ {os.path.basename(__file__)} 실행됨 {time.strftime('%Y-%m-%d %H:%
 st.title("다양한 widgent들")
 
 # 선택한 값이 model에 입력됨
+# select 박스에서 뭘 바꿀 때마다 아래에서코드가재실행되는 걸 터미널에서 볼 수 있음 
 model = st.selectbox("모델선택",("GPT-3","GPT-4","GPT-5"))
 
 st.markdown(f"model: {model}")
